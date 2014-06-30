@@ -21,6 +21,7 @@ class Haze
     end
     @cached_psi = get_psi
     @cache_time = Time.now.to_i
+    @cached_psi
   end
 
   # Gets the PSI reading by scraping the NEA site
