@@ -3,7 +3,7 @@ require 'open-uri'
 
 class Haze
   AREAS = %w{North South East West Central}
-  URL = 'http://app2.nea.gov.sg/anti-pollution-radiation-protection/air-pollution-control/psi/psi-readings-over-the-last-24-hours'
+  URL = 'http://www.nea.gov.sg/anti-pollution-radiation-protection/air-pollution-control/psi/psi-readings-over-the-last-24-hours'
   CACHE_DURATION = 60 * 30
 
   def call(env)
